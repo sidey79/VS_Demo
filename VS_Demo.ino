@@ -12,7 +12,9 @@ void setup()
 {
 	avgCounter.addValue(1);
 	avgCounter.addValue(2);
-	Serial.print(avgCounter.getAverage());
+	Serial.println(avgCounter.getAverage());
+	Serial.println(avgCounter.getVersion());
+
 }
 
 void loop()
