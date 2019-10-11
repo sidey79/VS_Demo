@@ -5,14 +5,17 @@
 */
 
 
+#include <RunningAverage.h>
+
+RunningAverage avgCounter(5);
 void setup()
 {
-
-
+	avgCounter.addValue(1);
+	avgCounter.addValue(2);
+	Serial.print(avgCounter.getAverage());
 }
 
 void loop()
 {
-
-
+	yield();
 }
