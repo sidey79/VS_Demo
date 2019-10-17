@@ -2,7 +2,7 @@
 //    FILE: RunningAverage.h
 //  AUTHOR: Rob dot Tillaart at gmail dot com
 // VERSION: 0.2.08
-//    DATE: 2015-apr-10
+//    DATE: 2019-okt-17
 // PURPOSE: RunningAverage library for Arduino
 //     URL: http://arduino.cc/playground/Main/RunningAverage
 // HISTORY: See RunningAverage.cpp
