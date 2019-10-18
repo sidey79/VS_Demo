@@ -4,7 +4,7 @@
     Author:     Sidey
  */
 
-#if defined(ESP8266)
+#if defined(ESP32)
 
 #include <RunningAverage.h>
 
@@ -16,9 +16,9 @@ void setup()
 		delay(50);
 	}
 	delay(5000);
-	avgCounter.addValue(1);
-	avgCounter.addValue(2);
-	Serial.println("ESP8266");
+	avgCounter.addValue(3);
+	avgCounter.addValue(4);
+	Serial.println("ESP32");
 	Serial.println(avgCounter.getAverage());
 	Serial.println(avgCounter.getVersion());
 }
