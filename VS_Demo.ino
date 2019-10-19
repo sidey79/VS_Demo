@@ -3,10 +3,10 @@
     Created:	11.10.2019 21:16:58
     Author:     Sidey
  */
+#include <RunningAverage.h>
 
 #if defined(ESP8266)
 
-#include <RunningAverage.h>
 
 RunningAverage avgCounter(5);
 void setup()
@@ -23,8 +23,8 @@ void setup()
 	Serial.println(avgCounter.getVersion());
 }
 
+#endif
 void loop()
 {
 	yield();
 }
-#endif

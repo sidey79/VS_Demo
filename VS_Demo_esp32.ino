@@ -4,10 +4,8 @@
     Author:     Sidey
  */
 
+
 #if defined(ESP32)
-
-#include <RunningAverage.h>
-
 RunningAverage avgCounter(5);
 void setup()
 {
@@ -23,8 +21,4 @@ void setup()
 	Serial.println(avgCounter.getVersion());
 }
 
-void loop()
-{
-	yield();
-}
 #endif
