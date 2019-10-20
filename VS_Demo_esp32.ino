@@ -6,6 +6,7 @@
 
 
 #if defined(ESP32)
+
 RunningAverage avgCounter(5);
 void setup()
 {

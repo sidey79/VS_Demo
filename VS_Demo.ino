@@ -24,7 +24,11 @@ void setup()
 }
 
 #endif
+#include "../VS_Demo_esp32.ino"
+
+
 void loop()
 {
 	yield();
 }
+
