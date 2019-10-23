@@ -3,7 +3,7 @@
     Created:	11.10.2019 21:16:58
     Author:     Sidey
  */
-#include <RunningAverage.h>
+// #include "RunningAverage.h"
 
 #if defined(ESP8266)
 
@@ -24,7 +24,7 @@ void setup()
 }
 
 #endif
-#include "../VS_Demo_esp32.ino"
+// #include "../VS_Demo_esp32.ino"
 
 
 void loop()
