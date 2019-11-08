@@ -1,11 +1,12 @@
 /*
-    Name:       VS_Demo.ino
-    Created:	11.10.2019 21:16:58
-    Author:     Sidey
+	Name:       main_esp32.cpp
+	Created:	08.11.2019 21:16:58
+	Author:     Sidey
  */
 
 
 #if defined(ESP32)
+#include <RunningAverage.h>
 
 RunningAverage avgCounter(5);
 void setup()
